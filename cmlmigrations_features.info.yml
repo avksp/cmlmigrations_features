@@ -1,0 +1,18 @@
+name: cmlmigrations_features
+type: module
+description: Migrate for 1c (features)
+package: cml
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:system (>=8.4)
+  - migrate_tools:migrate_tools
+  - migrate_plus:migrate_plus
+  - commerce:commerce_product
+  - cmlapi:cmlapi
+  - cmlmigrations:cmlmigrations
+  - yaml_editor:yaml_editor
+
+version: '8.x-1.0'
+project: 'cmlmigrations_features'
+datestamp: 1592383278
