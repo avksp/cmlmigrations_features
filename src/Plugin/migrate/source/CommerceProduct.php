@@ -33,7 +33,7 @@ class CommerceProduct extends MigrationsSourceBase {
 	$cml_service = \Drupal::service('cmlapi.cml');
 	$data = \Drupal::service('cmlapi.scheme')->init($cml_service->actual()->id());
 	if (is_null($data) == false){
-		$params = $data['feature'];
+		$params = $data['taxonomy'];
 	}
     // var_dump($params);
 	
